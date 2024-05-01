@@ -1,0 +1,9 @@
+apiVersion: spanner.cnrm.cloud.google.com/v1
+kind: Instance
+metadata:
+  labels:
+    app.kubernetes.io/name: spanner
+    app.kubernetes.io/managed-by: kustomize
+  name: instance-sample
+spec:
+  # TODO(user): Add fields here
